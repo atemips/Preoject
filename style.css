@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Tahoma;
+	font-size:10px;
+}
+
+
+table {
+	font-family: Tahoma; font-size: 8pt;
+	border: 1px solid #999999 ;
+	border-collapse:collapse;
+}
+.footer {
+	background-color: #CCC;
+	text-align: center;
+	padding: 10px;
+}
+
+select {
+	padding:3px;
+	border: 1px solid #999999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 8pt;
+}
+
+input {
+	padding:3px;
+	border: 1px solid #999999;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 8pt;
+}
+
+
+th {
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	/*padding: 0.5em; */
+	padding:5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+	background-color: #265180;
+}
+
+td {
+	/*padding: 0.5em;*/
+	vertical-align: top;
+	border: 1px solid #969BA5;
+	padding: 3px;
+}
+
+
+/* Menu */
+#menu {
+	color: #000;
+	height:32px;    /* tinggi menu utama */
+	background-color: #CCC;
+	font-size: 11px;
+	line-height:1.8em;
+	border: 1px solid #CCC;
+}
+.huruf_besar {
+	text-transform: uppercase;
+}
+
+#menu ul {
+	padding: 0; 
+	margin: 0;
+	list-style:none;
+	border:1px solid #CCC;
+}
+
+#menu ul li {
+	float:left;
+	position:relative;
+	border:1px solid #CCC;
+}
+
+#menu ul li a {
+	float:left;
+	padding:5px;
+	border-right: 1px solid #C00;
+	text-decoration:none;
+	display:block;
+	color: #000;
+}
+
+#menu ul li a:hover {
+	background-color:#666;
+}
+
+/* Dropdown Menu */
+#menu ul li ul {
+	display:none;
+}
+
+.bg_header {
+
+	background-color: #CCC;
+	text-align: center;
+	padding: 10px;
+
+}
+
+#menu ul li:hover ul {
+	display:block;
+	position:absolute;
+	top:30px;                         /* margin atas sub menu*/
+	left:0;
+}
+
+#menu ul li:hover ul li a {
+	display:block;
+	background:#6699CC;
+	color:#ffffff;
+	width:200px;                      /* panjang sum menu */
+}
+
+#menu ul li:hover ul li a:hover {
+	background: #000000;
+	color:#ffffff;
+}
+/* End Menu */
+
+#isi {
+}
+
+#isi table {
+	font-family: Tahoma; font-size: 8pt;
+	border: 1px solid #999999 ;
+	border-collapse:collapse;	
+}
+
+#isi td {
+	padding: 0.5em;
+	vertical-align: top;
+	border: 1px solid #969BA5;
+}
+
+#isi input, select {
+	font-family: Tahoma;
+	font-size:11px;
+}
+
+#isi a {
+	text-decoration:none;
+}
+
+#isi a:hover {
+	background-color:#FF9;
+}
+
+.kotak_nomor {
+	background-color: #E5CDAE;
+	padding: 2px;
+	text-align: center;
+}
+
+.kotak_abu_abu {
+	background-color: #6699CC;
+	padding: 2px;
+	text-align: center;
+}
+.data_record {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #CDCDCD;
+	border-left-width: 1px;
+	border-left-color: #CDCDCD;
+}
+.data_record_tengah {
+	padding: 2px;
+	border-bottom-width: 1px;
+	border-bottom-color: #CDCDCD;
+	border-left-width: 1px;
+	border-left-color: #CDCDCD;
+	text-align: center;
+}
+
+.data_record_kanan {
+	padding: 2px;
+	text-align: right;
+}
+.kotak_orange {	background-color: #F90;	border: 1px dashed #F30; padding: 4px;}
+.kotak_abu_abu_tua {
+	background-color: #4E4E4E;
+	padding: 5px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+}
